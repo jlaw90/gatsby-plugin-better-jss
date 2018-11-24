@@ -20,7 +20,7 @@ module.exports = {
 
 And that's it!
 
-####Advanced Usage
+#### Advanced Usage
 
 By default we use ```react-jss-preset-default```, but you can completely customise the JSS module setup.
 
