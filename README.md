@@ -34,7 +34,7 @@ Here's an example using ```src/utils/jss.js``` as the configuration module path.
 const preset = require('jss-preset-default').default;
 
 module.exports = function(jss) {
-  jss.setup(preset());
+  return jss.setup(preset());
 }
 ```
 
