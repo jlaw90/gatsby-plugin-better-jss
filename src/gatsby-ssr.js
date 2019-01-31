@@ -7,13 +7,12 @@ import configure from './.cache/jss.js'
  * Keep track of SheetRegistry for each page
  */
 const sheetsRegistryManager = new Map();
+const jss = configure(create());
 
 // eslint-disable-next-line react/prop-types,react/display-name
 export const wrapRootElement = ({ element, pathname }, { theme = {} }) => {
   const sheets = new SheetsRegistry();
   sheetsRegistryManager.set(pathname, sheets);
-
-  const jss = configure(create());
 
   return (
     <JssProvider registry={sheets} jss={jss}>
