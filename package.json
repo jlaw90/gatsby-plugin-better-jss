@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-better-jss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A better plugin for gatsbyjs, allowing JSS customisation and hot module reloading support",
   "main": "index.js",
   "files": [
